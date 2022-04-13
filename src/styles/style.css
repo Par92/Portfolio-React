@@ -1,0 +1,159 @@
+:root {
+    --primary:#083a09;
+    --secondary: #a77720;
+    --tirtiary: #fae9d8;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--primary);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100%;
+    margin: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+header {
+    Padding: 5px;
+    padding-left: 5px;
+    background-color: var(--primary);
+    color: var(--tirtiary);
+    font-size: 280%;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+nav {
+    display: flex;
+    background-color:var(--secondary);
+    justify-content: flex-end;
+    padding: 8px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-bottom: 2px;
+  }
+
+nav a {
+    color: var(--primary);
+    display: inline-block;
+    font-size: 130%;
+    font-weight: bold;
+    padding-inline-end: 80px;
+}
+
+nav a:hover {
+    color: var(--tirtiary);
+  }
+
+
+.sections {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--tirtiary);
+    color: var(--primary);
+}
+
+
+.Me {
+    max-width: 20%;
+    min-width: 200px;
+    height:fit-content;
+    margin: 20px;
+    box-shadow: 10px 5px 5px var(--primary);
+}
+
+.sections p {
+    font-size: 1.3em;
+    display: block;
+    max-width: 50%;
+    margin: 5%;
+}
+.sections h2 {
+    display: flex;
+    float: right;
+    align-items: center;
+    margin: 30px;
+    font-size: 150%;
+
+}
+.sections ul {
+    font-size: 20px;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.Projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--tirtiary);
+    color: var(--primary);
+    max-width: 1200px;
+}
+
+.Work {
+    max-width: 200px;
+}
+.Work:hover {
+    border: 5px solid var(--secondary);
+    max-width: 60%;
+}
+
+#Work-1 {
+    max-width: 80%;
+    min-width: 200px;
+}
+
+.Projects h3 {
+    font-size: 20px;
+    display: block;
+}
+
+.project-pic {
+    flex: 1 0 300px; 
+    margin: 20px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    text-align: center;
+    background: var(--secondary);
+    color: var(--primary);
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    font-weight: bolder;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .sections,
+    nav {
+      flex-direction: column;
+      justify-content:center;
+      padding: 5px;
+      padding-right: 0px;
+      font-size: 75%;
+    }
+   nav a {
+     display: inline-block;
+    text-align: center;
+    padding: 10px;
+
+   }
+  }
