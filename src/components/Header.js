@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import '../styles/style.css';
-import About from './pages/About';
-import Work from './pages/Work';
-import Contact from './pages/Contact';
+import About from './Projects/About';
+import Work from './Projects/Work';
+import Contact from './Projects/Contact';
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
@@ -27,7 +27,7 @@ function Navbar({ currentPage, handlePageChange }) {
 }
 
 function Header() {
-  const [currentPage, setCurrentPage] = useState('Work');
+  const [currentPage, setCurrentPage] = useState('About');
 
   const renderPage = () => {
     if (currentPage === 'About') {

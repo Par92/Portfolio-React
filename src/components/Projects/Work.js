@@ -27,7 +27,8 @@ export default function Work() {
         </div>
         <div class="project-pic">
                 <a href="https://rocky-ridge-05041.herokuapp.com/"><img class="Work" src={pictureFour}/></a>
-                <h3>Project 2 (AFC Richmond Sports Page)</h3>
+                <h3>Project 2 (AFC Richmond)</h3>
+                <a href="https://github.com/Par92/lassoSportsPage">Github</a>
         </div> 
         <div class="project-pic">
                 <a href="https://google.com"><img class="Work" src={pictureFive}/></a>

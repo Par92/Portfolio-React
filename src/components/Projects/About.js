@@ -5,7 +5,6 @@ import myPicture from './assets/images/IMG_2785.jpg';
 export default function About() {
   return (
   <div class="sections">
-      <h1>About Me</h1>
       <img class="Me" src={myPicture}/>
         <p>Hey, I'm Peter Riggs.
             Thanks for taking the time to visit this page. Allow me to better introduce myself.
