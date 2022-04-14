@@ -8,4 +8,4 @@
 
 link https://par92.github.io/Portfolio/
 
-screenshot ![](./assets/images/Portfolio-Screenshot.png)
+![Portfolio-Screenshot](https://user-images.githubusercontent.com/97469705/163306206-4063b138-86bb-4022-856d-efbf52b94718.png)
