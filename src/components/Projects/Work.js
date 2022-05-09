@@ -21,7 +21,7 @@ export default function Work() {
                 <h3> (click icon for github link)</h3>
         </div>
         <div class="project-pic">
-                <a href="https://rocky-ridge-05041.herokuapp.com/"><img class="Work" src={pictureFour}/></a>
+                <a href="https://richmondafc.herokuapp.com/"><img class="Work" src={pictureFour}/></a>
                 <h3>Project 2 (AFC Richmond)</h3>
                 <a href="https://github.com/Par92/lassoSportsPage"><img class="Icon" src={gitHubIcon}/></a>
         </div> 
