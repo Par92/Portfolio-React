@@ -8,7 +8,7 @@ import pictureFive from './assets/images/avi-richards-Z3ownETsdNQ-unsplash.jpg';
 import gitHubIcon from './assets/images/github.png'
 import pictureSix from './assets/images/Screenshot5.png'
 import pictureSeven from './assets/images/booksearch.png'
-import pictureEight from './assets/images/eldenringfinal.gif'
+import pictureEight from './assets/images/eldenmrkt.gif'
 
 export default function Work() {
   return (
